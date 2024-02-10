@@ -1,0 +1,18 @@
+npm init
+npm install electron --save-dev
+change package.json main to main.js
+add script 'electron .'
+change gitignore settings if setting up github
+copy main.js
+copy index.html
+(if needed)
+copy preload.js and link to main.js
+copy renderer and adjust index to match.
+(Preload loads envs and other variables....renderer takes those variables and applies it to index)
+
+(.vscode folder made for apperent debugging)
+https://www.electronjs.org/docs/latest/tutorial/devtools-extension
+https://www.electronjs.org/docs/latest/tutorial/application-debugging
+
+How To Exampls for Deeper System Integrations
+https://www.electronjs.org/docs/latest/tutorial/examples
